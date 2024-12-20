@@ -3,11 +3,11 @@ package effectivejava.chapter2.item2.builder;
 // Builder Pattern  (Page 13)
 public class NutritionFacts {
     private final int servingSize;
-    private final int servings;
-    private final int calories;
+     private final int servings;
+     private final int calories;
     private final int fat;
     private final int sodium;
-    private final int carbohydrate;
+     private final int carbohydrate;
 
     public static class Builder {
         // Required parameters
